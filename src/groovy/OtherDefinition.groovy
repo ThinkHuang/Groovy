@@ -81,9 +81,9 @@ Planet.EARTH.printMe();*/
 // println displayname;
  
  //5、动态性,动态的给对象添加元素或者方法，不知道在java中使用原型可不可以做到？
- def msg = new Person();
+ def msg = "hello";
  println msg.metaClass;
- Person.metaClass.up = { delegate.toString()};
+ String.metaClass.up = { delegate.toUpperCase()};
  //delegate隶属于闭包里面的元素，那么这个闭包中元素类型如何确定呢？，通过前面的metaClass确定
  println msg.up();
  
