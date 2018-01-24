@@ -38,7 +38,7 @@ println str;*/
 //    }
 //}
 //repeat(var)
-//repeat的作用是进行循环的定义开始,貌似必须要有结束repeat(var)
+//repeat的作用是进行循环的定义开始,最下面的那句repeat(var)就是调用方法开始执行循环
 
 //7、GString和范围定义(在循环中的0..<5,所包含的字段为0,1,2,3,4，不仅可以作用于数字，还可以作用于字符"a..<e",取值为a,b,c,d)
 //def var = """hello world,groovy""";
