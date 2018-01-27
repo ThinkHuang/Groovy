@@ -7,16 +7,16 @@
 //4、不需要构造函数
 //5、不需要return
 //6、不需要(),groovy默认返回最后一条语句的结果作为函数的返回值
-class Person
-{
-    def name;
-    def age;
-    
-    String toString()
-    {
-        "$name,$age";
-    }
-}
+//class Person
+//{
+//    def name;
+//    def age;
+//    
+//    String toString()
+//    {
+//        "$name,$age";
+//    }
+//}
 //不需要main函数，直接在类外部使用即可
 /*def person = new Person();
 person.age = 20;
